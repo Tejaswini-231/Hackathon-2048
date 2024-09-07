@@ -1,0 +1,40 @@
+body {
+    background-color: #d9f7f9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.score-board {
+    margin-bottom: 20px;
+    color: #5b2d52; 
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    background-color: #63138b; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4ffff; 
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #f68bc6; 
+}
